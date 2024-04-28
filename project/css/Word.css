@@ -1,0 +1,99 @@
+﻿/* WEB BODY */
+body {
+    background-color: black;
+}
+
+section {
+    text-align: center;
+    color: white;
+    background-color: #0e341263;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    box-shadow: 0px 0px 8px 2px #805120;
+}
+
+#websitetitle {
+    font-family: 'Calisto MT';
+    letter-spacing: 10px;
+    text-decoration: underline;
+    color: #bc8021;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+#desc {
+    text-align: center;
+    color: floralwhite;
+    width: 40%;
+    margin: auto;
+    background-color: #0e3412b0;
+    box-shadow: 0px 0px 8px 2px #805120;
+    border-radius: 10px 10px;
+    padding: 5px;
+    font-family: 'Calisto MT';
+    margin-bottom: 10px;
+}
+
+/* NAV BAR */
+
+#icon {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+#sitename {
+    font-family: Rage;
+    text-align: center;
+    font-size: 2em;
+    float: left;
+    color: #bc8021;
+    padding-right: 8px;
+}
+
+#navbar {
+    background-color: #0e3412dc;
+    box-shadow: 0px 0px 8px 2px #805120;
+    overflow: hidden;
+    font-family: 'Calisto MT';
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    #navbar a {
+        display: block;
+        color: floralwhite;
+        text-align: center;
+        padding: 1px 1px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+        #navbar a:hover {
+            background-color: #bc8021;
+            color: black;
+        }
+
+        #navbar a.active {
+            background-color: orangered;
+            color: white;
+        }
+
+canvas {
+    margin-left: 32%;
+}
+
+#wordList {
+    font-size: 2em;
+    font-family: 'Calisto MT';
+    background-color: #6a5641;
+    border-radius: 10px 10px;
+    padding: 5px;
+}
+
+#message {
+    text-align: center;
+    font-size: 1em;
+}

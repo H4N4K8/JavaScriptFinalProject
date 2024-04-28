@@ -1,0 +1,12 @@
+GAME DESCRIPTIONS:
+
+1. Make your own story is a game to encourage creativity. Move characters adn objects arond the landscape to amke your own story!
+2. Memory is a game that tests your memorization skills! As you flip cards try to make a match. Each match grants you points. Get as many as you can! You only have 60 seconds. 
+3. Word Scramble is a game that tests your vocabulary! Choose a phrase and think of as many words as you can. Once you've entered them in and cannot think of more, hit the "get score" button to see your points!
+
+COPYRIGHT INFORMATION: 
+
+If a .html file is reproduced, please provide credits to the author in the page interface.
+If a .js or .css file is reproduced, please provide credits to the author in the comments or documentation.
+
+Hannah Francis ©2024

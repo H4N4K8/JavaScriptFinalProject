@@ -1,0 +1,75 @@
+﻿body {
+    background-image: url('../media/project.gif');
+    background-color:black;
+    position: center;
+}
+
+#icon {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+#sitename {
+    font-family: Rage;
+    text-align: center;
+    font-size: 3em;
+    float: left;
+    color: #bc8021;
+    padding-right: 8px;
+    margin-bottom: 10px;
+}
+
+#textfile{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.5em;
+    font-family:Rage;
+}
+a hover{
+    color:white;
+}
+a{
+    color:white;
+}
+
+#foot{
+    text-align: center;
+}
+
+#cute{
+    float: right;
+    height: 250px;
+    width: 250px;
+}
+
+#gamemenu {
+    background-color: #0e341263;
+    position:center;
+    font-family: 'Calisto MT';
+    width: 80%;
+    height: auto;
+    padding: 1px;
+    box-shadow: 0px 0px 8px 2px #805120;
+    margin: auto;
+}
+
+.games {
+    width: 80%;
+    background-color: #6a5641;
+    text-align: center;
+    padding: 6%;
+    font-size: 1.5em;
+    margin: 3%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #303c3f;
+}
+ .games:hover {
+    background-color: #303c3f;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #808080;
+    color: #46794bff;
+}

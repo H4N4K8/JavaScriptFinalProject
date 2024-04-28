@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Make Your story</title>
+    <link rel="icon" type="image/x-icon" href="media/icon.png">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/puzzle.css">
+    <script>
+        $(function () {
+            $("#MoveMe1").draggable();
+            $("#MoveMe2").draggable();
+            $("#MoveMe3").draggable();
+            $("#MoveMe4").draggable();
+            $("#MoveMe5").draggable();
+            $("#MoveMe6").draggable();
+        });
+    </script>
+</head>
+<body style="background-image: url('media/project.gif')">
+    <img id="icon" src="media/icon.png" alt="acron icon">
+    <p id="sitename">cozy gaming</p>
+    <nav id="navbar">
+        <a id="home" href="project.html">Home</a>
+        <a id="wordscramble" href="Word.html">Word Scramble</a>
+        <a id="memory" href="memory.html">Memory</a>
+        <a id="puzzler" href="puzzle.html">Make Your Story</a>
+        <a id="siteinfo" href="siteinfo.txt">Site Info</a>
+    </nav>
+    <header>
+        <p id="websitetitle">Make Your Story</p>
+        <p id="desc">Move the images around to create a story! <br /> Simply drag the pieces around and place them where you want! Have fun creating!</p>
+    </header>
+    <br />
+    <section>
+        <img src="media/landscape.jpg" style="background-repeat: no-repeat; margin: auto;" />
+        <div style="display:flex;">
+            <p id="MoveMe1"><img src="media/totoro.png" style="width:150px; height: 180px;" /></p>
+            <p id="MoveMe2"><img src="media/fairy.png" style="width:120px; height: 130px;" /></p>
+            <p id="MoveMe3"><img src="media/fairy 2.png" style="width:120px; height: 130px;" /></p>
+            <p id="MoveMe4"><img src="media/sun.png" style="width:200px; height: 200px;" /></p>
+            <p id="MoveMe5"><img src="media/bunny.png" style="width:120px; height: 130px;" /></p>
+            <p id="MoveMe6"><img src="media/rain.png" style="width:200px; height: 200px;" /></p>
+        </div>
+    </section>
+</body>
+</html>

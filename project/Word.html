@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Word</title>
+    <link rel="icon" type="image/x-icon" href="media/icon.png">
+    <link rel="stylesheet" href="css/Word.css">
+</head>
+<body style="background-image: url('media/project.gif')">
+    <img id="icon" src="media/icon.png" alt="acron icon">
+    <p id="sitename">cozy gaming</p>
+    <nav id="navbar">
+        <a id="home" href="project.html">Home</a>
+        <a id="wordscramble" href="Word.html">Word Scramble</a>
+        <a id="memory" href="memory.html">Memory</a>
+        <a id="puzzler" href="puzzle.html">Make Your Story</a>
+        <a id="siteinfo" href="siteinfo.txt">Site Info</a>
+    </nav>
+    <header>
+        <p id="websitetitle">Word Scramble</p>
+        <p id="desc">Test your vocabulary with this cozy themed word scramble! Each word is worth a point, get as many as you can!</p>
+        
+    </header>
+    <section>
+        <p id="points"></p>
+        <p>
+            <button id="phrase1">Hot Chocolate</button>
+            <button id="phrase2">Fluffy Blanket</button>
+            <button id="phrase3">Rainy Weather</button>
+            <button id="phrase4">Crackling Fire</button>
+        </p><canvas id="gameboard" width="700" height="250"></canvas><p>
+            <input type="text" id="words">
+            <button id="reset">Reset</button>
+            <button id="score">Get Score</button>
+        </p>
+        <p id="wordList"> Your Guessed Words</p>
+        <p id="message"></p>
+    </section>
+    <script src="js/Word.js"></script>
+</body>
+</html>
